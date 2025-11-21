@@ -4,8 +4,10 @@ def main():
     time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
 
     match priority:
-        case "high" | "medium":
+        case "high":
             reminder = f"Reminder: '{task}' is a {priority} priority task"
+	case "medium":
+	    reminder = f"Reminder: '{task}' is a {priority} priority task"
         case "low":
             reminder = f"Note: '{task}' is a low priority task"
         case _:
