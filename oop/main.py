@@ -1,4 +1,4 @@
-from library_system import Book, Ebook, PrintBook, Library
+from library_system import Book, EBook, PrintBook, Library
 
 def main():
     # Create a Library instance
